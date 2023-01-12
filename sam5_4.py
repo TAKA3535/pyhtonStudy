@@ -17,7 +17,7 @@ a = int(input("追加したい数値を入力してください。"))
 store.append(a)
 print("変更後１:",store)
 
-# リストに陽を粗追加
+# リストに要素追加
 print(("store[2]に25を追加"))
 store.insert(2,25)
 print("変更後2:",store)

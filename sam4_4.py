@@ -1,4 +1,10 @@
 # P55 for文
+# range()の使い方
+# 1.    range(個数)
+# 2.    range(初期値,終了値)
+# 3.    range(初期値,終了値,間隔)
+
+
 for i in range(5):
     print("指定数 1:",i,"回目")
 

@@ -1,14 +1,14 @@
 # 5-6　リスト要素の削除
-store = [10,50,65,84,10]
-print("変更前",store)
+# store = [10,50,65,84,10]
+# print("変更前",store)
 
-a = int(input("何番目のデータを削除しますか"))
-del store[a]
-print("変更後1:",store)
+# a = int(input("何番目のデータを削除しますか"))
+# del store[a]
+# print("変更後1:",store)
 
-print("10を削除します。")
-store.remove(10)
-print("変更後2:",store)
+# print("10を削除します。")
+# store.remove(10)
+# print("変更後2:",store)
 
 # 5-7 リストをアドレス渡しするプログラムの作成
 store = [10,50,65,84,10]

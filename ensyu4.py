@@ -1,33 +1,43 @@
 # # 演習4-1
-for i in range(21,31):
-    if ((i % 2) == 0):
-        print(i,"は偶数です。")
-    else:
-        print(i,"は奇数です。")
+# for i in range(21,31):
+#     if ((i % 2) == 0):
+#         print(i,"は偶数です。")
+#     else:
+#         print(i,"は奇数です。")
 
-# # 演習4-2
+# # 演習4-2 for文にfor文をネスト
+# msg = "****"
+# for i in range(2):
+#     for j in range(2):
+#         print(msg)
+# ネストなし
 msg = "****"
-for i in range(2):
-    for j in range(2):
-        print(msg)
-# 強引だがしたのでも行けた演習4-2
-c = False
 for i in range(4):
-    for j in range(4):
-        if c == False:
-            print("*", end="")
-            c = True
-        else:
-            print("*", end="")
-            c = False
-    print()
+    print(msg)
+# # 強引だがしたのでも行けた演習4-2 
+# c = False
+# for i in range(4):
+#     for j in range(4):
+#         if c == False:
+#             print("*", end="")
+#             c = True
+#         else:
+#             print("*", end="")
+#             c = False
+#     print()
 
-# 演習4-3
+# 演習4-3 for文にfor文をネスト
 msg = "*"
 for i in range(2):
     for j in range(2):
         print(msg)
         msg += "*"
+# ネストなし
+msg = "*"
+for i in range(4):
+        print(msg)
+        msg += "*"
+        # msg = msg+"*"
 
 # 演習4-４
 white = "□"
